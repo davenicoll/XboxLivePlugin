@@ -1,1313 +1,0 @@
-TSpotlight Importer
-v3
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Info.plist "Other/Adium Spotlight Importer/Info.plist"
-cCpResource "Other/Adium Spotlight Importer/schema.xml" build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/cs.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/da.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/de.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/English.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fi.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fr.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/is.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/it.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/ja.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/nb.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/nl.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/pl.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/ru.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sl.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sv.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/tr.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/schema.strings "Other/Adium Spotlight Importer/cs.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/schema.strings "Other/Adium Spotlight Importer/da.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/schema.strings "Other/Adium Spotlight Importer/de.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/schema.strings "Other/Adium Spotlight Importer/English.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/schema.strings "Other/Adium Spotlight Importer/fi.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/schema.strings "Other/Adium Spotlight Importer/fr.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/schema.strings "Other/Adium Spotlight Importer/fr_CA.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/schema.strings "Other/Adium Spotlight Importer/is.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/schema.strings "Other/Adium Spotlight Importer/it.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/schema.strings "Other/Adium Spotlight Importer/ja.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/schema.strings "Other/Adium Spotlight Importer/nb.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/schema.strings "Other/Adium Spotlight Importer/nl.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/schema.strings "Other/Adium Spotlight Importer/pl.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/schema.strings "Other/Adium Spotlight Importer/pt_PT.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/schema.strings "Other/Adium Spotlight Importer/ru.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/schema.strings "Other/Adium Spotlight Importer/sl.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/schema.strings "Other/Adium Spotlight Importer/sv.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/schema.strings "Other/Adium Spotlight Importer/tr.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/schema.strings "Other/Adium Spotlight Importer/zh_CN.lproj/schema.strings"
-cCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/schema.strings "Other/Adium Spotlight Importer/sk_SK.lproj/schema.strings"
-cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/main.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog-Additions.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForFile.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/NSCalendarDate+ISO8601Parsing.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/scandate.o" /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter" normal x86_64
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog-Additions.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForFile.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/NSCalendarDate+ISO8601Parsing.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/scandate.o" /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/main.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter" normal i386
-cCreateUniversalBinary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter normal "x86_64 i386"
-cTouch /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004DD6B27A00000000000000EE
-t1305916026
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
-c000000004AC6B3050000000000000477
-t1254535941
-s1143
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004DA341E700000000000830F8
-t1302544871
-s536824
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h
-c000000004CC3E8CB0000000000000E87
-t1287907531
-s3719
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
-c000000004CC3E8CB0000000000000AF4
-t1287907531
-s2804
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
-c000000004DA341E7000000000001A854
-t1302544871
-s108628
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
-c000000004B90FA5D0000000000000401
-t1267792477
-s1025
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004DA341E700000000000C7160
-t1302544871
-s815456
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC401D100000000000013E6
-t1287913937
-s5094
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
-c000000004BBD2CE90000000000002C18
-t1270689001
-s11288
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004BBD2CE90000000000001731
-t1270689001
-s5937
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
-c000000004CC3DE680000000000004A1D
-t1287904872
-s18973
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.h
-c000000004DD79ED50000000000000AF8
-t1305976533
-s2808
-i<Foundation/Foundation.h>
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m
-c000000004DD79ED5000000000000444E
-t1305976533
-s17486
-i<ctype.h>
-i<string.h>
-i"NSCalendarDate+ISO8601Parsing.h"
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/English.lproj/InfoPlist.strings
-c000000004DD79EE000000000000000F4
-t1305976544
-s244
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/English.lproj/schema.strings
-c000000004DD79EE00000000000000330
-t1305976544
-s816
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m
-c000000004DD79EE000000000000030C0
-t1305976544
-s12480
-i<CoreFoundation/CoreFoundation.h>
-i<CoreServices/CoreServices.h>
-i"GetMetadataForHTMLLog.h"
-i"NSCalendarDate+ISO8601Parsing.h"
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.h
-c000000004DD79EE000000000000004B2
-t1305976544
-s1202
-i<Cocoa/Cocoa.h>
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m
-c000000004DD79EE000000000000028AC
-t1305976544
-s10412
-i"GetMetadataForHTMLLog-Additions.h"
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.h
-c000000004DD79EE0000000000000040E
-t1305976544
-s1038
-i<Foundation/Foundation.h>
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m
-c000000004DD79EE00000000000002CF1
-t1305976544
-s11505
-i"GetMetadataForHTMLLog.h"
-i"GetMetadataForHTMLLog-Additions.h"
-i<sys/stat.h>
-i"scandate.h"
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/Prefix.pch
-c000000004DD79EE000000000000000D9
-t1305976544
-s217
-i<Cocoa/Cocoa.h>
-i<CoreFoundation/CoreFoundation.h>
-i<CoreFoundation/CFPlugInCOM.h>
-i<CoreServices/CoreServices.h>
-i<ApplicationServices/ApplicationServices.h>
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/cs.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001EA
-t1305976544
-s490
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/cs.lproj/schema.strings
-c000000004DD79EE0000000000000065C
-t1305976544
-s1628
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/da.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001EA
-t1305976544
-s490
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/da.lproj/schema.strings
-c000000004DD79EE00000000000000662
-t1305976544
-s1634
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/de.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001EA
-t1305976544
-s490
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/de.lproj/schema.strings
-c000000004DD79EE00000000000000360
-t1305976544
-s864
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/fi.lproj/InfoPlist.strings
-c000000004DD79EE000000000000000F4
-t1305976544
-s244
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/fi.lproj/schema.strings
-c000000004DD79EE00000000000000330
-t1305976544
-s816
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/fr.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001E8
-t1305976544
-s488
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/fr.lproj/schema.strings
-c000000004DD79EE00000000000000368
-t1305976544
-s872
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001E8
-t1305976544
-s488
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/fr_CA.lproj/schema.strings
-c000000004DD79EE0000000000000036C
-t1305976544
-s876
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/is.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001F0
-t1305976544
-s496
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/is.lproj/schema.strings
-c000000004DD79EE0000000000000036E
-t1305976544
-s878
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/it.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001EA
-t1305976544
-s490
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/it.lproj/schema.strings
-c000000004DD79EE00000000000000388
-t1305976544
-s904
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/ja.lproj/InfoPlist.strings
-c000000004DD79EE000000000000000F4
-t1305976544
-s244
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/ja.lproj/schema.strings
-c000000004DD79EE00000000000000330
-t1305976544
-s816
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c
-c000000004DD79EE00000000000002068
-t1305976544
-s8296
-i<CoreFoundation/CoreFoundation.h>
-i<CoreFoundation/CFPlugInCOM.h>
-i<CoreServices/CoreServices.h>
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/nb.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001E0
-t1305976544
-s480
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/nb.lproj/schema.strings
-c000000004DD79EE00000000000000350
-t1305976544
-s848
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/nl.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001E6
-t1305976544
-s486
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/nl.lproj/schema.strings
-c000000004DD79EE00000000000000382
-t1305976544
-s898
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/pl.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001F8
-t1305976544
-s504
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/pl.lproj/schema.strings
-c000000004DD79EE0000000000000036C
-t1305976544
-s876
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001E6
-t1305976544
-s486
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/pt_PT.lproj/schema.strings
-c000000004DD79EE00000000000000358
-t1305976544
-s856
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/ru.lproj/InfoPlist.strings
-c000000004DD79EE000000000000000F4
-t1305976544
-s244
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/ru.lproj/schema.strings
-c000000004DD79EE00000000000000330
-t1305976544
-s816
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/schema.xml
-c000000004DD79EE00000000000000709
-t1305976544
-s1801
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001E8
-t1305976544
-s488
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/sk_SK.lproj/schema.strings
-c000000004DD79EE0000000000000035A
-t1305976544
-s858
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/sl.lproj/InfoPlist.strings
-c000000004DD79EE000000000000000F0
-t1305976544
-s240
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/sl.lproj/schema.strings
-c000000004DD79EE000000000000001A4
-t1305976544
-s420
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/sv.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001EA
-t1305976544
-s490
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/sv.lproj/schema.strings
-c000000004DD79EE00000000000000352
-t1305976544
-s850
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/tr.lproj/InfoPlist.strings
-c000000004DD79EE000000000000001EA
-t1305976544
-s490
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/tr.lproj/schema.strings
-c000000004DD79EE00000000000000662
-t1305976544
-s1634
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.strings
-c000000004DD79EE000000000000000F4
-t1305976544
-s244
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/zh_CN.lproj/schema.strings
-c000000004DD79EE000000000000001A3
-t1305976544
-s419
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.h
-c000000004DD79EE9000000000000058E
-t1305976553
-s1422
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m
-c000000004DD79EE9000000000000102D
-t1305976553
-s4141
-i"scandate.h"
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter.LinkFileList
-c000000004DD79F69000000000000039F
-t1305976681
-s927
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForFile.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog-Additions.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/NSCalendarDate+ISO8601Parsing.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/scandate.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter.LinkFileList
-c000000004DD79F6900000000000003AB
-t1305976681
-s939
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForFile.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog-Additions.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/NSCalendarDate+ISO8601Parsing.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/scandate.o
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Info.plist
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/schema.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/schema.strings
-t2
-s0
-
-N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch.pth
-t2
-s0
-
-N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch.pth
-t2
-s0
-
-N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch.pth
-t2
-s0
-
-N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch.pth
-t2
-s0
-
-NOther/Adium Spotlight Importer/Info.plist
-c000000004DD79EE0000000000000058D
-t1305976544
-s1421
-
-CCheck dependencies
-r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencieseca664e9d687b341^b7436be9d687b341^---0#1#0#--18"Check dependencies
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForFile.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.652932
-e327669483.746439
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForFile.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.me947a7ebd687b341^0e15bfebd687b341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/GetMetadataForFile.m0000000000000000^2549"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForFile.o" "Other/Adium Spotlight Importer/GetMetadataForFile.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForFile.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog-Additions.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.566120
-e327669483.652748
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog-Additions.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m01dc94ebd687b341^8121a7ebd687b341^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/GetMetadataForHTMLLog-Additions.m0000000000000000^2601"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog-Additions.o" "Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog-Additions.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.746621
-e327669483.840806
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m2043bfebd687b341^143ed7ebd687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/GetMetadataForHTMLLog.m0000000000000000^2561"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog.o" "Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/GetMetadataForHTMLLog.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/NSCalendarDate+ISO8601Parsing.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.840963
-e327669483.989615
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/NSCalendarDate+ISO8601Parsing.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m:460:33:{460:31-460:34}{460:42-460:55}: warning: conversion specifies type 'unsigned long' but the argument has type 'NSUInteger' (aka 'unsigned int') [-Wformat,7]
-o                                                                 NSLog(@"(%@) month is %lu", str, month_or_week);
-o                                                                                       ~~^        ~~~~~~~~~~~~~
-o                                                                                       %u
-ofix-it:"/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m":{460:31-460:34}:"%u"
-o1 warning generated.
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m3469d7ebd687b341^5c04feebd687b341^-786"/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m:460:33:{460:31-460:34}{460:42-460:55}: warning: conversion specifies type 'unsigned long' but the argument has type 'NSUInteger' (aka 'unsigned int') [-Wformat,7]                                                                 NSLog(@"(%@) month is %lu", str, month_or_week);                                                                                       ~~^        ~~~~~~~~~~~~~                                                                                       %ufix-it:"/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m":{460:31-460:34}:"%u"1 warning generated.1(21%IDEActivityLogMessage2@101"Conversion specifies type 'unsigned long' but the argument has type 'NSUInteger' (aka 'unsigned int')80"Conversion specifies type 'unsigned long' but the argument has type 'NSUInteger'327669483#0#291#1(26%IDEActivityLogFixItMessage3@23"Fix-It: replace with %u-327669483#607#158#-0#23"com.apple.dt.IDE.fix-it23%DVTTextDocumentLocation4@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities%20Framework/Source/NSCalendarDate+ISO8601Parsing.m0000000000000000^459#30#459#33#18446744073709551615#0#---2"%u1#-4@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities%20Framework/Source/NSCalendarDate+ISO8601Parsing.m0000000000000000^459#32#459#32#18446744073709551615#0#19"Format String Issue2(4@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities%20Framework/Source/NSCalendarDate+ISO8601Parsing.m0000000000000000^459#30#459#33#18446744073709551615#0#4@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities%20Framework/Source/NSCalendarDate+ISO8601Parsing.m0000000000000000^459#41#459#54#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation5@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities%20Framework/Source/NSCalendarDate+ISO8601Parsing.m0000000000000000^2611"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/NSCalendarDate+ISO8601Parsing.o" "Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/NSCalendarDate+ISO8601Parsing.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/main.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.963339
-e327669484.014503
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/main.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.cb2bdf6ebd687b341^3eb403ecd687b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/main.c0000000000000000^2451"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/main.o" "Other/Adium Spotlight Importer/main.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/main.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/scandate.o" /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.897618
-e327669483.963076
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/scandate.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m4df4e5ebd687b341^b492f6ebd687b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m0000000000000000^2457"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/scandate.o" Source/scandate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/scandate.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForFile.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669482.836541
-e327669482.933951
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForFile.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.med47d6ead687b341^191eefead687b341^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/GetMetadataForFile.m0000000000000000^2559"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForFile.o" "Other/Adium Spotlight Importer/GetMetadataForFile.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForFile.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForFile.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog-Additions.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669482.753818
-e327669482.836199
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog-Additions.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m971ac1ead687b341^b117d6ead687b341^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/GetMetadataForHTMLLog-Additions.m0000000000000000^2611"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog-Additions.o" "Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog-Additions.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog-Additions.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669482.934306
-e327669483.040595
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m874eefead687b341^d3d80aebd687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/GetMetadataForHTMLLog.m0000000000000000^2571"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog.o" "Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/GetMetadataForHTMLLog.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/GetMetadataForHTMLLog.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/NSCalendarDate+ISO8601Parsing.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.042622
-e327669483.241623
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/NSCalendarDate+ISO8601Parsing.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m51110bebd687b341^f9dc3debd687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities%20Framework/Source/NSCalendarDate+ISO8601Parsing.m0000000000000000^2621"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/NSCalendarDate+ISO8601Parsing.o" "Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/NSCalendarDate+ISO8601Parsing.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/NSCalendarDate+ISO8601Parsing.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/main.o" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s327669482.704734
-e327669482.753553
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/main.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.cfc8bb4ead687b341^f2eec0ead687b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/main.c0000000000000000^2461"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/main.o" "Other/Adium Spotlight Importer/main.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/main.c" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/main.o"
-
-CCompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/scandate.o" /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.241791
-e327669483.288722
-r1
-xCompileC
-xbuild/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/scandate.o
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m57053eebd687b341^c4e849ebd687b341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m0000000000000000^2467"CompileC "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/scandate.o" Source/scandate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/scandate.m -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/scandate.o"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/English.lproj/InfoPlist.strings"
-s327669481.459880
-e327669481.483226
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/English.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Other/Adium Spotlight Importer/English.lproj/InfoPlist.strings21cc75e9d687b341^2dcf7be9d687b341^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/English.lproj/InfoPlist.strings0000000000000000^550"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/English.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj -- "Other/Adium Spotlight Importer/English.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/schema.strings "Other/Adium Spotlight Importer/English.lproj/schema.strings"
-s327669481.524280
-e327669481.527733
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/schema.strings
-xOther/Adium Spotlight Importer/English.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Other/Adium Spotlight Importer/English.lproj/schema.strings6e5186e9d687b341^ff1f87e9d687b341^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/English.lproj/schema.strings0000000000000000^541"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj/schema.strings "Other/Adium Spotlight Importer/English.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/English.lproj -- "Other/Adium Spotlight Importer/English.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/cs.lproj/InfoPlist.strings"
-s327669481.454018
-e327669481.457256
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/cs.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/cs.lproj/InfoPlist.strings304a74e9d687b341^e10d75e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/cs.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/cs.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj -- "Other/Adium Spotlight Importer/cs.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/schema.strings "Other/Adium Spotlight Importer/cs.lproj/schema.strings"
-s327669481.518058
-e327669481.521336
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/schema.strings
-xOther/Adium Spotlight Importer/cs.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/cs.lproj/schema.stringsa7ae84e9d687b341^e58085e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/cs.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj/schema.strings "Other/Adium Spotlight Importer/cs.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/cs.lproj -- "Other/Adium Spotlight Importer/cs.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/da.lproj/InfoPlist.strings"
-s327669481.456549
-e327669481.459765
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/da.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/da.lproj/InfoPlist.strings95f074e9d687b341^70b275e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/da.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/da.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj -- "Other/Adium Spotlight Importer/da.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/schema.strings "Other/Adium Spotlight Importer/da.lproj/schema.strings"
-s327669481.521442
-e327669481.524202
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/schema.strings
-xOther/Adium Spotlight Importer/da.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/da.lproj/schema.strings159185e9d687b341^bd3786e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/da.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj/schema.strings "Other/Adium Spotlight Importer/da.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/da.lproj -- "Other/Adium Spotlight Importer/da.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/de.lproj/InfoPlist.strings"
-s327669481.457368
-e327669481.460161
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/de.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/de.lproj/InfoPlist.strings032575e9d687b341^c64f7be9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/de.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/de.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj -- "Other/Adium Spotlight Importer/de.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/schema.strings "Other/Adium Spotlight Importer/de.lproj/schema.strings"
-s327669481.522107
-e327669481.524884
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/schema.strings
-xOther/Adium Spotlight Importer/de.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/de.lproj/schema.strings17b785e9d687b341^ee5e86e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/de.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj/schema.strings "Other/Adium Spotlight Importer/de.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/de.lproj -- "Other/Adium Spotlight Importer/de.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fi.lproj/InfoPlist.strings"
-s327669481.460269
-e327669481.483231
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/fi.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/fi.lproj/InfoPlist.stringsb4e475e9d687b341^afcc7be9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/fi.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fi.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj -- "Other/Adium Spotlight Importer/fi.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/schema.strings "Other/Adium Spotlight Importer/fi.lproj/schema.strings"
-s327669481.525014
-e327669481.528187
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/schema.strings
-xOther/Adium Spotlight Importer/fi.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/fi.lproj/schema.stringsab7586e9d687b341^a43887e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/fi.lproj/schema.strings0000000000000000^521"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj/schema.strings "Other/Adium Spotlight Importer/fi.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fi.lproj -- "Other/Adium Spotlight Importer/fi.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fr.lproj/InfoPlist.strings"
-s327669481.483345
-e327669481.486821
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/fr.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/fr.lproj/InfoPlist.stringsf1d87be9d687b341^419f7ce9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/fr.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fr.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj -- "Other/Adium Spotlight Importer/fr.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/schema.strings "Other/Adium Spotlight Importer/fr.lproj/schema.strings"
-s327669481.527815
-e327669481.530838
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/schema.strings
-xOther/Adium Spotlight Importer/fr.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/fr.lproj/schema.strings4d2d87e9d687b341^820188e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/fr.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj/schema.strings "Other/Adium Spotlight Importer/fr.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr.lproj -- "Other/Adium Spotlight Importer/fr.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings"
-s327669481.483360
-e327669481.487365
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Other/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings4fcf7be9d687b341^93c67ce9d687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/fr_CA.lproj/InfoPlist.strings0000000000000000^543"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj -- "Other/Adium Spotlight Importer/fr_CA.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/schema.strings "Other/Adium Spotlight Importer/fr_CA.lproj/schema.strings"
-s327669481.528383
-e327669481.530980
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/schema.strings
-xOther/Adium Spotlight Importer/fr_CA.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/fr_CA.lproj/schema.stringsb55387e9d687b341^a871a3e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/fr_CA.lproj/schema.strings0000000000000000^534"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj/schema.strings "Other/Adium Spotlight Importer/fr_CA.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/fr_CA.lproj -- "Other/Adium Spotlight Importer/fr_CA.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/is.lproj/InfoPlist.strings"
-s327669481.486965
-e327669481.499935
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/is.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/is.lproj/InfoPlist.strings02b97ce9d687b341^44fc7fe9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/is.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/is.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj -- "Other/Adium Spotlight Importer/is.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/schema.strings "Other/Adium Spotlight Importer/is.lproj/schema.strings"
-s327669481.530914
-e327669481.640843
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/schema.strings
-xOther/Adium Spotlight Importer/is.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/is.lproj/schema.strings77f887e9d687b341^1213a4e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/is.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj/schema.strings "Other/Adium Spotlight Importer/is.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/is.lproj -- "Other/Adium Spotlight Importer/is.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/it.lproj/InfoPlist.strings"
-s327669481.487675
-e327669481.499874
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/it.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/it.lproj/InfoPlist.stringsbce77ce9d687b341^0ef97fe9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/it.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/it.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj -- "Other/Adium Spotlight Importer/it.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/schema.strings "Other/Adium Spotlight Importer/it.lproj/schema.strings"
-s327669481.531059
-e327669481.640834
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/schema.strings
-xOther/Adium Spotlight Importer/it.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/it.lproj/schema.strings360388e9d687b341^001ba4e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/it.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj/schema.strings "Other/Adium Spotlight Importer/it.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/it.lproj -- "Other/Adium Spotlight Importer/it.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/ja.lproj/InfoPlist.strings"
-s327669481.500144
-e327669481.503283
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/ja.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/ja.lproj/InfoPlist.stringsb91b80e9d687b341^daff80e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/ja.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/ja.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj -- "Other/Adium Spotlight Importer/ja.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/schema.strings "Other/Adium Spotlight Importer/ja.lproj/schema.strings"
-s327669481.641174
-e327669481.645028
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/schema.strings
-xOther/Adium Spotlight Importer/ja.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/ja.lproj/schema.strings2a38a4e9d687b341^813ea5e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/ja.lproj/schema.strings0000000000000000^521"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj/schema.strings "Other/Adium Spotlight Importer/ja.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ja.lproj -- "Other/Adium Spotlight Importer/ja.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/nb.lproj/InfoPlist.strings"
-s327669481.500180
-e327669481.503546
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/nb.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/nb.lproj/InfoPlist.strings5c1d80e9d687b341^7d0581e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/nb.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/nb.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj -- "Other/Adium Spotlight Importer/nb.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/schema.strings "Other/Adium Spotlight Importer/nb.lproj/schema.strings"
-s327669481.641385
-e327669481.645061
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/schema.strings
-xOther/Adium Spotlight Importer/nb.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/nb.lproj/schema.strings0341a4e9d687b341^6744a5e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/nb.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj/schema.strings "Other/Adium Spotlight Importer/nb.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nb.lproj -- "Other/Adium Spotlight Importer/nb.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/nl.lproj/InfoPlist.strings"
-s327669481.503391
-e327669481.506514
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/nl.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/nl.lproj/InfoPlist.strings67f380e9d687b341^fca981e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/nl.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/nl.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj -- "Other/Adium Spotlight Importer/nl.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/schema.strings "Other/Adium Spotlight Importer/nl.lproj/schema.strings"
-s327669481.645142
-e327669481.648641
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/schema.strings
-xOther/Adium Spotlight Importer/nl.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/nl.lproj/schema.stringsef38a5e9d687b341^8d0ca6e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/nl.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj/schema.strings "Other/Adium Spotlight Importer/nl.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/nl.lproj -- "Other/Adium Spotlight Importer/nl.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/pl.lproj/InfoPlist.strings"
-s327669481.503632
-e327669481.506899
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/pl.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/pl.lproj/InfoPlist.strings290981e9d687b341^f7cd81e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/pl.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/pl.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj -- "Other/Adium Spotlight Importer/pl.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/schema.strings "Other/Adium Spotlight Importer/pl.lproj/schema.strings"
-s327669481.645151
-e327669481.649063
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/schema.strings
-xOther/Adium Spotlight Importer/pl.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/pl.lproj/schema.strings4339a5e9d687b341^0a49a6e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/pl.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj/schema.strings "Other/Adium Spotlight Importer/pl.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pl.lproj -- "Other/Adium Spotlight Importer/pl.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings"
-s327669481.506632
-e327669481.510507
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Other/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings4cc281e9d687b341^59c282e9d687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/pt_PT.lproj/InfoPlist.strings0000000000000000^543"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj -- "Other/Adium Spotlight Importer/pt_PT.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/schema.strings "Other/Adium Spotlight Importer/pt_PT.lproj/schema.strings"
-s327669481.648741
-e327669481.652159
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/schema.strings
-xOther/Adium Spotlight Importer/pt_PT.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/pt_PT.lproj/schema.stringsd32ea6e9d687b341^a5f6a6e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/pt_PT.lproj/schema.strings0000000000000000^534"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj/schema.strings "Other/Adium Spotlight Importer/pt_PT.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/pt_PT.lproj -- "Other/Adium Spotlight Importer/pt_PT.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/ru.lproj/InfoPlist.strings"
-s327669481.507008
-e327669481.510260
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/ru.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/ru.lproj/InfoPlist.strings8cda81e9d687b341^069f82e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/ru.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/ru.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj -- "Other/Adium Spotlight Importer/ru.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/schema.strings "Other/Adium Spotlight Importer/ru.lproj/schema.strings"
-s327669481.649142
-e327669481.652170
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/schema.strings
-xOther/Adium Spotlight Importer/ru.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/ru.lproj/schema.stringsaf3ea6e9d687b341^f4fba6e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/ru.lproj/schema.strings0000000000000000^521"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj/schema.strings "Other/Adium Spotlight Importer/ru.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/ru.lproj -- "Other/Adium Spotlight Importer/ru.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.strings"
-s327669481.517881
-e327669481.521968
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Other/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.stringsbaa284e9d687b341^f99e85e9d687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/sk_SK.lproj/InfoPlist.strings0000000000000000^543"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj -- "Other/Adium Spotlight Importer/sk_SK.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/schema.strings "Other/Adium Spotlight Importer/sk_SK.lproj/schema.strings"
-s327669481.659753
-e327669481.663051
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/schema.strings
-xOther/Adium Spotlight Importer/sk_SK.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/sk_SK.lproj/schema.strings7902a9e9d687b341^fdbca9e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/sk_SK.lproj/schema.strings0000000000000000^534"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj/schema.strings "Other/Adium Spotlight Importer/sk_SK.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sk_SK.lproj -- "Other/Adium Spotlight Importer/sk_SK.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sl.lproj/InfoPlist.strings"
-s327669481.510395
-e327669481.514203
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/sl.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/sl.lproj/InfoPlist.stringsb2b982e9d687b341^f5a183e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/sl.lproj/InfoPlist.strings0000000000000000^530"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sl.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj -- "Other/Adium Spotlight Importer/sl.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/schema.strings "Other/Adium Spotlight Importer/sl.lproj/schema.strings"
-s327669481.652518
-e327669481.655742
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/schema.strings
-xOther/Adium Spotlight Importer/sl.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/sl.lproj/schema.strings601da7e9d687b341^19e7a7e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/sl.lproj/schema.strings0000000000000000^521"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj/schema.strings "Other/Adium Spotlight Importer/sl.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sl.lproj -- "Other/Adium Spotlight Importer/sl.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sv.lproj/InfoPlist.strings"
-s327669481.510588
-e327669481.514703
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/sv.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/sv.lproj/InfoPlist.strings93c482e9d687b341^97c683e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/sv.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/sv.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj -- "Other/Adium Spotlight Importer/sv.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/schema.strings "Other/Adium Spotlight Importer/sv.lproj/schema.strings"
-s327669481.652537
-e327669481.655728
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/schema.strings
-xOther/Adium Spotlight Importer/sv.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/sv.lproj/schema.strings971ca7e9d687b341^33e1a7e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/sv.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj/schema.strings "Other/Adium Spotlight Importer/sv.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/sv.lproj -- "Other/Adium Spotlight Importer/sv.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/tr.lproj/InfoPlist.strings"
-s327669481.514338
-e327669481.517980
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/tr.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/tr.lproj/InfoPlist.stringsfeba83e9d687b341^daae84e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/tr.lproj/InfoPlist.strings0000000000000000^531"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/tr.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj -- "Other/Adium Spotlight Importer/tr.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/schema.strings "Other/Adium Spotlight Importer/tr.lproj/schema.strings"
-s327669481.656093
-e327669481.659660
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/schema.strings
-xOther/Adium Spotlight Importer/tr.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Other/Adium Spotlight Importer/tr.lproj/schema.strings6c06a8e9d687b341^6ceaa8e9d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/tr.lproj/schema.strings0000000000000000^522"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj/schema.strings "Other/Adium Spotlight Importer/tr.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/tr.lproj -- "Other/Adium Spotlight Importer/tr.lproj/schema.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.strings"
-s327669481.514784
-e327669481.517798
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/InfoPlist.strings
-xOther/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Other/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.stringsf5d783e9d687b341^e78c84e9d687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/zh_CN.lproj/InfoPlist.strings0000000000000000^542"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/InfoPlist.strings "Other/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj -- "Other/Adium Spotlight Importer/zh_CN.lproj/InfoPlist.strings"
-
-CCopyStringsFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/schema.strings "Other/Adium Spotlight Importer/zh_CN.lproj/schema.strings"
-s327669481.656140
-e327669481.659745
-r1
-xCopyStringsFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/schema.strings
-xOther/Adium Spotlight Importer/zh_CN.lproj/schema.strings
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Other/Adium Spotlight Importer/zh_CN.lproj/schema.strings5b0aa8e9d687b341^0ff0a8e9d687b341^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/zh_CN.lproj/schema.strings0000000000000000^533"CopyStringsFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj/schema.strings "Other/Adium Spotlight Importer/zh_CN.lproj/schema.strings"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/zh_CN.lproj -- "Other/Adium Spotlight Importer/zh_CN.lproj/schema.strings"
-
-CCpResource "Other/Adium Spotlight Importer/schema.xml" build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml
-s327669481.453722
-e327669481.456465
-r1
-xCpResource
-xOther/Adium Spotlight Importer/schema.xml
-xbuild/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml323e74e9d687b341^6ef974e9d687b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml0000204dfb01f041^530"CpResource "Other/Adium Spotlight Importer/schema.xml" build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources/schema.xml    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/schema.xml" /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Resources
-
-CCreateUniversalBinary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter normal "x86_64 i386"
-s327669484.051063
-e327669484.058802
-r1
-xCreateUniversalBinary
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter
-xnormal
-xx86_64 i386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Create universal binary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporterbb250decd687b341^cc0c0fecd687b341^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter0000204dfb01f041^698"CreateUniversalBinary build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter normal "x86_64 i386"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    /usr/bin/lipo -create "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter" -output /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/MacOS/AdiumSpotlightImporter
-
-CLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter" normal i386
-s327669484.014881
-e327669484.050526
-r1
-xLd
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter
-xnormal
-xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Link /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporterfbe503ecd687b341^9aef0cecd687b341^---0#0#0#--1053"Ld "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter" normal i386    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -filelist "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter.LinkFileList" -mmacosx-version-min=10.6 -framework CoreFoundation -framework Foundation -framework CoreServices -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/i386/AdiumSpotlightImporter"
-
-CLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter" normal x86_64
-s327669483.522622
-e327669483.565663
-r1
-xLd
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter
-xnormal
-xx86_64
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporterefe685ebd687b341^19e290ebd687b341^---0#0#0#--1063"Ld "build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter" normal x86_64    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -filelist "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter.LinkFileList" -mmacosx-version-min=10.6 -framework CoreFoundation -framework Foundation -framework CoreServices -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/Objects-normal/x86_64/AdiumSpotlightImporter"
-
-CProcessInfoPlistFile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Info.plist "Other/Adium Spotlight Importer/Info.plist"
-s327669481.447785
-e327669481.451357
-r1
-xProcessInfoPlistFile
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Info.plist
-xOther/Adium Spotlight Importer/Info.plist
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Process Other/Adium Spotlight Importer/Info.plistd4b572e9d687b341^4ab573e9d687b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/Info.plist0000000000000000^461"ProcessInfoPlistFile build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Info.plist "Other/Adium Spotlight Importer/Info.plist"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    builtin-infoPlistUtility "Other/Adium Spotlight Importer/Info.plist" -expandbuildsettings -format binary -platform macosx -o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter/Contents/Info.plist
-
-CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-s327669483.288883
-e327669483.897130
-r1
-xProcessPCH
-x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch.pth
-xOther/Adium Spotlight Importer/Prefix.pch
-xnormal
-xi386
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Precompile Other/Adium Spotlight Importer/Prefix.pched114aebd687b341^ffb0e5ebd687b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/Prefix.pch0000000000000000^2384"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-bdzgutishxxdrtbmthwzwdjkpzhd/Prefix.pch.pth
-
-CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s327669481.664964
-e327669482.272133
-r1
-xProcessPCH
-x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch.pth
-xOther/Adium Spotlight Importer/Prefix.pch
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Precompile Other/Adium Spotlight Importer/Prefix.pchc155aae9d687b341^b8b145ead687b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/Prefix.pch0000000000000000^2390"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-dhmpujtaiptaktfpmkbwtvkklvpq/Prefix.pch.pth
-
-CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669481.664754
-e327669482.704052
-r1
-xProcessPCH
-x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch.pth
-xOther/Adium Spotlight Importer/Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Precompile Other/Adium Spotlight Importer/Prefix.pch024baae9d687b341^234db4ead687b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/Prefix.pch0000000000000000^2432"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-eorhfqywnozzcdalhdmpwypmkpxz/Prefix.pch.pth
-
-CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s327669482.272336
-e327669483.522410
-r1
-xProcessPCH
-x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch.pth
-xOther/Adium Spotlight Importer/Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Precompile Other/Adium Spotlight Importer/Prefix.pch5ad645ead687b341^520e86ebd687b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium%20Spotlight%20Importer/Prefix.pch0000000000000000^2426"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch.pth "Other/Adium Spotlight Importer/Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/AdiumSpotlightImporter-project-headers.hmap" -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/Spotlight Importer.build/DerivedSources" -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Other/Adium Spotlight Importer/Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-ffpqrkuxriicfughcpslnqhpqjnf/Prefix.pch.pth
-
-CTouch /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter
-s327669484.060547
-e327669484.067607
-r1
-xTouch
-x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Touch /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter2e910fecd687b341^8b4f11ecd687b341^---0#0#0#--255"Touch build/Release-Debug/AdiumSpotlightImporter.mdimporter    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    /usr/bin/touch -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumSpotlightImporter.mdimporter
-

@@ -1,0 +1,241 @@
+TAdiumApplescriptRunner
+v3
+r1
+cCheck dependencies
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch.pth Adium.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch.pth Adium.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/ApplescriptRunner.o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/ApplescriptRunner.o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner normal x86_64
+cLd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner normal i386
+cCreateUniversalBinary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunner normal "x86_64 i386"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DD6B27A00000000000000EE
+t1305916026
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D5B397F0000000000B3E980
+t1297824127
+s11790720
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Adium.pch
+c000000004DD79ED400000000000005B2
+t1305976532
+s1458
+i<Cocoa/Cocoa.h>
+i<Adium/AISharedAdium.h>
+i<Adium/ESDebugAILog.h>
+i<AIUtilities/AIStringUtilities.h>
+i<Adium/AILocalizationAssistance.h>
+i<Adium/AIPreferenceControllerProtocol.h>
+i<Adium/AIPlugin.h>
+i<AIUtilities/AIMathCompatibility.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/AIMathCompatibility.h
+c000000004DD79ED5000000000000068D
+t1305976533
+s1677
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AIUtilities Framework/Source/AIStringUtilities.h
+c000000004DD79ED500000000000005E6
+t1305976533
+s1510
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AIAdiumProtocol.h
+c000000004DD79ED70000000000001A42
+t1305976535
+s6722
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AIControllerProtocol.h
+c000000004DD79ED700000000000003BA
+t1305976535
+s954
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AILocalizationAssistance.h
+c000000004DD79ED70000000000000C03
+t1305976535
+s3075
+i<Adium/AILocalizationButton.h>
+i<Adium/AILocalizationButtonCell.h>
+i<Adium/AILocalizationTextField.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AILocalizationButton.h
+c000000004DD79ED70000000000000BE3
+t1305976535
+s3043
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AILocalizationButtonCell.h
+c000000004DD79ED70000000000000B63
+t1305976535
+s2915
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AILocalizationTextField.h
+c000000004DD79ED70000000000000B9E
+t1305976535
+s2974
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AIPlugin.h
+c000000004DD79ED70000000000000505
+t1305976535
+s1285
+i<Adium/AISharedAdium.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AIPreferenceControllerProtocol.h
+c000000004DD79ED70000000000001063
+t1305976535
+s4195
+i<Adium/AIControllerProtocol.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/AISharedAdium.h
+c000000004DD79ED700000000000003C2
+t1305976535
+s962
+i<Adium/AIAdiumProtocol.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/Adium Framework/Source/ESDebugAILog.h
+c000000004DD79ED700000000000006AF
+t1305976535
+s1711
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m
+c000000004DD79EE90000000000001E6C
+t1305976553
+s7788
+i<Foundation/Foundation.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner.LinkFileList
+c000000004DD79F67000000000000009D
+t1305976679
+s157
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/ApplescriptRunner.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner.LinkFileList
+c000000004DD79F67000000000000009F
+t1305976679
+s159
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/ApplescriptRunner.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunner
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch.pth
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc232b2e7d687b341^8063bfe7d687b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/ApplescriptRunner.o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669481.123216
+e327669481.355512
+r1
+xCompileC
+xbuild/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/ApplescriptRunner.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m6dad1fe9d687b341^b4025be9d687b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m0000000000000000^2554"CompileC build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/ApplescriptRunner.o Source/ApplescriptRunner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-generated-files.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-own-target-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-all-target-headers.hmap -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-project-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources/i386 -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m -o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/ApplescriptRunner.o
+
+CCompileC build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/ApplescriptRunner.o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669481.072175
+e327669481.220872
+r1
+xCompileC
+xbuild/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/ApplescriptRunner.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.mfa9912e9d687b341^ce8a38e9d687b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m0000000000000000^2564"CompileC build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/ApplescriptRunner.o Source/ApplescriptRunner.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-generated-files.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-own-target-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-all-target-headers.hmap -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-project-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources/x86_64 -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Source/ApplescriptRunner.m -o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/ApplescriptRunner.o
+
+CCreateUniversalBinary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunner normal "x86_64 i386"
+s327669481.380974
+e327669481.389032
+r1
+xCreateUniversalBinary
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunner
+xnormal
+xx86_64 i386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Create universal binary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunnerbf9c61e9d687b341^ee9763e9d687b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunner0000204dfb01f041^604"CreateUniversalBinary build/Release-Debug/AdiumApplescriptRunner normal "x86_64 i386"    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    /usr/bin/lipo -create /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner -output /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/AdiumApplescriptRunner
+
+CLd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner normal i386
+s327669481.356113
+e327669481.380542
+r1
+xLd
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Link /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunnerea3f5be9d687b341^367261e9d687b341^---0#0#0#--1001"Ld build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner normal i386    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -filelist /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/i386/AdiumApplescriptRunner
+
+CLd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner normal x86_64
+s327669481.221235
+e327669481.334009
+r1
+xLd
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Link /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner2cbb38e9d687b341^299455e9d687b341^---0#0#0#--1011"Ld build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner normal x86_64    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -filelist /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/Objects-normal/x86_64/AdiumApplescriptRunner
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch.pth Adium.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669479.753739
+e327669481.114804
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch.pth
+xAdium.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection20"Precompile Adium.pchb532c1e7d687b341^1bd91de9d687b341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Adium.pch0000000000000000^2413"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch.pth Adium.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-generated-files.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-own-target-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-all-target-headers.hmap -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-project-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources/i386 -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Adium.pch -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-dngunpeieopthodytwcxedceguth/Adium.pch.pth
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch.pth Adium.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669479.753600
+e327669481.071513
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch.pth
+xAdium.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection20"Precompile Adium.pchd80bc1e7d687b341^b14d12e9d687b341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Adium.pch0000000000000000^2419"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch.pth Adium.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wshorten-64-to-32 -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-generated-files.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-own-target-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-all-target-headers.hmap -iquote /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/AdiumApplescriptRunner-project-headers.hmap -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug/include -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources/x86_64 -I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Adium.build/Release-Debug/AdiumApplescriptRunner.build/DerivedSources -Wall -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/Release-Debug -F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks -c /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Adium.pch -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Adium-eixfmcdxzkqmheadypkwblhipgey/Adium.pch.pth
+

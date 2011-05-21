@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5531D2AD1388028E00FBBA4D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531D2AC1388028E00FBBA4D /* Cocoa.framework */; };
+		5531D2B71388028E00FBBA4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5531D2B51388028E00FBBA4D /* InfoPlist.strings */; };
+		5531D2BF138802E300FBBA4D /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531D2BE138802E300FBBA4D /* Adium.framework */; };
+		5531D2C51388034E00FBBA4D /* XboxLivePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5531D2C41388034E00FBBA4D /* XboxLivePlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5531D2A91388028E00FBBA4D /* XboxLivePlugin.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XboxLivePlugin.AdiumPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		5531D2AC1388028E00FBBA4D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5531D2AF1388028E00FBBA4D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5531D2B01388028E00FBBA4D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5531D2B11388028E00FBBA4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5531D2B41388028E00FBBA4D /* XboxLivePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XboxLivePlugin-Info.plist"; sourceTree = "<group>"; };
+		5531D2B61388028E00FBBA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5531D2B81388028E00FBBA4D /* XboxLivePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XboxLivePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		5531D2BE138802E300FBBA4D /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
+		5531D2C31388034E00FBBA4D /* XboxLivePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxLivePlugin.h; sourceTree = "<group>"; };
+		5531D2C41388034E00FBBA4D /* XboxLivePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XboxLivePlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5531D2A61388028E00FBBA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5531D2AD1388028E00FBBA4D /* Cocoa.framework in Frameworks */,
+				5531D2BF138802E300FBBA4D /* Adium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5531D29E1388028D00FBBA4D = {
+			isa = PBXGroup;
+			children = (
+				5531D2C31388034E00FBBA4D /* XboxLivePlugin.h */,
+				5531D2C41388034E00FBBA4D /* XboxLivePlugin.m */,
+				5531D2B21388028E00FBBA4D /* XboxLivePlugin */,
+				5531D2AB1388028E00FBBA4D /* Frameworks */,
+				5531D2AA1388028E00FBBA4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5531D2AA1388028E00FBBA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5531D2A91388028E00FBBA4D /* XboxLivePlugin.AdiumPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5531D2AB1388028E00FBBA4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5531D2AC1388028E00FBBA4D /* Cocoa.framework */,
+				5531D2AE1388028E00FBBA4D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5531D2AE1388028E00FBBA4D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5531D2BE138802E300FBBA4D /* Adium.framework */,
+				5531D2AF1388028E00FBBA4D /* AppKit.framework */,
+				5531D2B01388028E00FBBA4D /* CoreData.framework */,
+				5531D2B11388028E00FBBA4D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5531D2B21388028E00FBBA4D /* XboxLivePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				5531D2B31388028E00FBBA4D /* Supporting Files */,
+			);
+			path = XboxLivePlugin;
+			sourceTree = "<group>";
+		};
+		5531D2B31388028E00FBBA4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5531D2B41388028E00FBBA4D /* XboxLivePlugin-Info.plist */,
+				5531D2B51388028E00FBBA4D /* InfoPlist.strings */,
+				5531D2B81388028E00FBBA4D /* XboxLivePlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5531D2A81388028E00FBBA4D /* XboxLivePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5531D2BB1388028E00FBBA4D /* Build configuration list for PBXNativeTarget "XboxLivePlugin" */;
+			buildPhases = (
+				5531D2A51388028E00FBBA4D /* Sources */,
+				5531D2A61388028E00FBBA4D /* Frameworks */,
+				5531D2A71388028E00FBBA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XboxLivePlugin;
+			productName = XboxLivePlugin;
+			productReference = 5531D2A91388028E00FBBA4D /* XboxLivePlugin.AdiumPlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5531D2A01388028E00FBBA4D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5531D2A31388028E00FBBA4D /* Build configuration list for PBXProject "XboxLivePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5531D29E1388028D00FBBA4D;
+			productRefGroup = 5531D2AA1388028E00FBBA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5531D2A81388028E00FBBA4D /* XboxLivePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5531D2A71388028E00FBBA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5531D2B71388028E00FBBA4D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5531D2A51388028E00FBBA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5531D2C51388034E00FBBA4D /* XboxLivePlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5531D2B51388028E00FBBA4D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5531D2B61388028E00FBBA4D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5531D2B91388028E00FBBA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5531D2BA1388028E00FBBA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5531D2BC1388028E00FBBA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XboxLivePlugin/XboxLivePlugin-Prefix.pch";
+				INFOPLIST_FILE = "XboxLivePlugin/XboxLivePlugin-Info.plist";
+				INSTALL_PATH = "“$(HOME)/Library/Application Support/Adium 2.0/PlugIns/”";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Debug;
+		};
+		5531D2BD1388028E00FBBA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XboxLivePlugin/XboxLivePlugin-Prefix.pch";
+				INFOPLIST_FILE = "XboxLivePlugin/XboxLivePlugin-Info.plist";
+				INSTALL_PATH = "“$(HOME)/Library/Application Support/Adium 2.0/PlugIns/”";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5531D2A31388028E00FBBA4D /* Build configuration list for PBXProject "XboxLivePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5531D2B91388028E00FBBA4D /* Debug */,
+				5531D2BA1388028E00FBBA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5531D2BB1388028E00FBBA4D /* Build configuration list for PBXNativeTarget "XboxLivePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5531D2BC1388028E00FBBA4D /* Debug */,
+				5531D2BD1388028E00FBBA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5531D2A01388028E00FBBA4D /* Project object */;
+}

@@ -1,0 +1,551 @@
+TAutoHyperlinks.framework
+v3
+r1
+cCheck dependencies
+cSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current" A
+cSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Resources" Versions/Current/Resources
+cSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks" Versions/Current/AutoHyperlinks
+cSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Headers" Versions/Current/Headers
+cProcessInfoPlistFile "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Resources/Info.plist" Resources/Info.plist
+cCpHeader Source/AHLinkLexer.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h
+cCpHeader Source/AutoHyperlinks.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.h
+cCpHeader Source/AHMarkedHyperlink.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.h
+cCpHeader Source/AHHyperlinkScanner.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.h
+cLex /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l
+cLex /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHLinkLexer.yy.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHLinkLexer.yy.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgovxgmdtpkngcecautrysloocxy/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHHyperlinkScanner.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHMarkedHyperlink.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHHyperlinkScanner.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks" normal x86_64
+cCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHMarkedHyperlink.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks" normal i386
+cAnalyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m"
+cCreateUniversalBinary "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks" normal "x86_64 i386"
+cAnalyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m"
+cAnalyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m"
+cAnalyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m"
+cTouch "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DD6B27A00000000000000EE
+t1305916026
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/libkern/OSAtomic.h
+c000000004BBD2CE90000000000002519
+t1270689001
+s9497
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHHyperlinkScanner.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHLinkLexer.yy.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHMarkedHyperlink.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks.LinkFileList
+c000000004DD79F230000000000000292
+t1305976611
+s658
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHHyperlinkScanner.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHLinkLexer.yy.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHMarkedHyperlink.o
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks.LinkFileList
+c000000004DD79F230000000000000298
+t1305976611
+s664
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/StaticAnalyzer/normal/i386/AHHyperlinkScanner.plist
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/StaticAnalyzer/normal/i386/AHMarkedHyperlink.plist
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/StaticAnalyzer/normal/x86_64/AHHyperlinkScanner.plist
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/StaticAnalyzer/normal/x86_64/AHMarkedHyperlink.plist
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Headers
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Resources
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.h
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.h
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.h
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Resources/Info.plist
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current
+t2
+s0
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch
+c000000004DD79ED800000000000006BE
+t1305976536
+s1726
+i<Cocoa/Cocoa.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.h
+c000000004DD79ED8000000000000179F
+t1305976536
+s6047
+i"AHLinkLexer.h"
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m
+c000000004DD79ED800000000000055D2
+t1305976536
+s21970
+i"AHHyperlinkScanner.h"
+i"AHLinkLexer.h"
+i"AHMarkedHyperlink.h"
+i<libkern/OSAtomic.h>
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.h
+c000000004DD79ED800000000000007DD
+t1305976536
+s2013
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l
+c000000004DD79ED8000000000000187F
+t1305976536
+s6271
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.h
+c000000004DD79ED800000000000009CB
+t1305976536
+s2507
+i"AHLinkLexer.h"
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m
+c000000004DD79ED80000000000001777
+t1305976536
+s6007
+i"AHMarkedHyperlink.h"
+
+N/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AutoHyperlinks.h
+c000000004DD79ED800000000000006C8
+t1305976536
+s1736
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgovxgmdtpkngcecautrysloocxy/AutoHyperlinks.framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch.pth
+t2
+s0
+
+NResources/Info.plist
+c000000004DD79ED8000000000000032A
+t1305976536
+s810
+
+CAnalyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m"
+s327669416.805080
+e327669419.308401
+r1
+xAnalyze
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Analyze /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m9339cea8d687b341^91f34eabd687b341^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Source/AHHyperlinkScanner.m0000000000000000^2987"Analyze Source/AHHyperlinkScanner.m    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch --analyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/StaticAnalyzer/normal/i386/AHHyperlinkScanner.plist"
+
+CAnalyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m"
+s327669418.594571
+e327669418.736331
+r1
+xAnalyze
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Analyze /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.mbb6098aad687b341^2786bcaad687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Source/AHMarkedHyperlink.m0000000000000000^2984"Analyze Source/AHMarkedHyperlink.m    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch --analyze "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/StaticAnalyzer/normal/i386/AHMarkedHyperlink.plist"
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf54b44a3d687b341^15575da3d687b341^---0#1#0#--18"Check dependencies
+
+CCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHHyperlinkScanner.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669414.886203
+e327669415.060477
+r1
+xCompileC
+x../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHHyperlinkScanner.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.mc901e3a6d687b341^992e10a7d687b341^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Source/AHHyperlinkScanner.m0000000000000000^3021"CompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHHyperlinkScanner.o Source/AHHyperlinkScanner.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHHyperlinkScanner.o"
+
+CCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHLinkLexer.yy.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s327669412.548794
+e327669412.871595
+r1
+xCompileC
+x../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHLinkLexer.yy.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c:4892:16: warning: unused function 'input' [-Wunused-function,9]
+o     static int input  (yyscan_t yyscanner)
+o                ^
+o1 warning generated.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c20ec8ca4d687b341^681fdfa4d687b341^-359"/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c:4892:16: warning: unused function 'input' [-Wunused-function,9]     static int input  (yyscan_t yyscanner)                ^1 warning generated.1(21%IDEActivityLogMessage2@23"Unused function 'input'-327669412#0#276#-1#-23%DVTTextDocumentLocation3@185"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c0000000000000000^4891#15#4891#15#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@229"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c0000000000000000^3155"CompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHLinkLexer.yy.o ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHLinkLexer.yy.o"
+
+CCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHMarkedHyperlink.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669415.111946
+e327669415.202191
+r1
+xCompileC
+x../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHMarkedHyperlink.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m6ccb1ca7d687b341^21216ea7d687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Source/AHMarkedHyperlink.m0000000000000000^3017"CompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHMarkedHyperlink.o Source/AHMarkedHyperlink.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AHMarkedHyperlink.o"
+
+CCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHHyperlinkScanner.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669414.611020
+e327669414.802658
+r1
+xCompileC
+x../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHHyperlinkScanner.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m7c999ca6d687b341^d61fd5a6d687b341^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Source/AHHyperlinkScanner.m0000000000000000^3031"CompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHHyperlinkScanner.o Source/AHHyperlinkScanner.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHHyperlinkScanner.o"
+
+CCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHLinkLexer.yy.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s327669412.148796
+e327669412.548640
+r1
+xCompileC
+x../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHLinkLexer.yy.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c:4892:16: warning: unused function 'input' [-Wunused-function,9]
+o     static int input  (yyscan_t yyscanner)
+o                ^
+o1 warning generated.
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c583726a4d687b341^268bcfa4d687b341^-359"/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c:4892:16: warning: unused function 'input' [-Wunused-function,9]     static int input  (yyscan_t yyscanner)                ^1 warning generated.1(21%IDEActivityLogMessage2@23"Unused function 'input'-327669412#0#276#-1#-23%DVTTextDocumentLocation3@185"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c0000000000000000^4891#15#4891#15#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@229"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c0000000000000000^3165"CompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHLinkLexer.yy.o ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHLinkLexer.yy.o"
+
+CCompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHMarkedHyperlink.o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669414.802793
+e327669414.886059
+r1
+xCompileC
+x../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHMarkedHyperlink.o
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.mcfa4cda6d687b341^af3eeea6d687b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Source/AHMarkedHyperlink.m0000000000000000^3027"CompileC ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHMarkedHyperlink.o Source/AHMarkedHyperlink.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -include /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.m" -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AHMarkedHyperlink.o"
+
+CCpHeader Source/AHHyperlinkScanner.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.h
+s327669411.396779
+e327669411.401473
+r1
+xCpHeader
+xSource/AHHyperlinkScanner.h
+x../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.hc6a265a3d687b341^f60da4a3d687b341^---0#0#0#-19%DVTDocumentLocation2@200"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.h0000204dfb01f041^614"CpHeader Source/AHHyperlinkScanner.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHHyperlinkScanner.h    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHHyperlinkScanner.h" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers"
+
+CCpHeader Source/AHLinkLexer.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h
+s327669411.393710
+e327669411.396230
+r1
+xCpHeader
+xSource/AHLinkLexer.h
+x../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h87dc64a3d687b341^f302a4a3d687b341^---0#0#0#-19%DVTDocumentLocation2@193"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h0000204dfb01f041^593"CpHeader Source/AHLinkLexer.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHLinkLexer.h    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.h" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers"
+
+CCpHeader Source/AHMarkedHyperlink.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.h
+s327669411.396370
+e327669411.401631
+r1
+xCpHeader
+xSource/AHMarkedHyperlink.h
+x../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.hd78765a3d687b341^ed0fa4a3d687b341^---0#0#0#-19%DVTDocumentLocation2@199"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.h0000204dfb01f041^611"CpHeader Source/AHMarkedHyperlink.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AHMarkedHyperlink.h    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHMarkedHyperlink.h" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers"
+
+CCpHeader Source/AutoHyperlinks.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.h
+s327669411.393911
+e327669411.396328
+r1
+xCpHeader
+xSource/AutoHyperlinks.h
+x../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.hbce764a3d687b341^ea08a4a3d687b341^---0#0#0#-19%DVTDocumentLocation2@196"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.h0000204dfb01f041^602"CpHeader Source/AutoHyperlinks.h ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers/AutoHyperlinks.h    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AutoHyperlinks.h" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Headers"
+
+CCreateUniversalBinary "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks" normal "x86_64 i386"
+s327669416.665019
+e327669416.672841
+r1
+xCreateUniversalBinary
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks
+xnormal
+xx86_64 i386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection192"Create universal binary /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinksb059aaa8d687b341^253daca8d687b341^---0#0#0#-19%DVTDocumentLocation2@186"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks0000204dfb01f041^862"CreateUniversalBinary ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks normal "x86_64 i386"    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /usr/bin/lipo -create "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks" -output "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/AutoHyperlinks"
+
+CLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks" normal i386
+s327669415.768930
+e327669415.830048
+r1
+xLd
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"Link /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks6ff1c4a7d687b341^d5cefca7d687b341^---0#0#0#--1275"Ld ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks normal i386    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -filelist "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks.LinkFileList" -install_name @executable_path/../Frameworks/AutoHyperlinks.framework/Versions/A/AutoHyperlinks -mmacosx-version-min=10.6 -framework Cocoa -single_module -compatibility_version 1 -current_version 1 -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/i386/AutoHyperlinks"
+
+CLd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks" normal x86_64
+s327669415.060593
+e327669415.111801
+r1
+xLd
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"Link /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinksfe9b0fa7d687b341^d6a71ca7d687b341^---0#0#0#--1285"Ld ../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks normal x86_64    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -filelist "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks.LinkFileList" -install_name @executable_path/../Frameworks/AutoHyperlinks.framework/Versions/A/AutoHyperlinks -mmacosx-version-min=10.6 -framework Cocoa -single_module -compatibility_version 1 -current_version 1 -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/Objects-normal/x86_64/AutoHyperlinks"
+
+CLex /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l
+s327669411.414012
+e327669412.097540
+r1
+xLex
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks
+xFramework/Source/AHLinkLexer.l
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Lex /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l300e6aa3d687b341^139d49a4d687b341^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Framework/Source/AHLinkLexer.l0000204dfb01f041^576"Lex /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /Developer/usr/bin/lex "-o/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/AHLinkLexer.yy.c" "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/Source/AHLinkLexer.l"
+
+CProcessInfoPlistFile "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Resources/Info.plist" Resources/Info.plist
+s327669411.389181
+e327669411.392400
+r1
+xProcessInfoPlistFile
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Resources/Info.plist
+xResources/Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Resources/Info.plistaeb963a3d687b341^c6fda3a3d687b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/Resources/Info.plist0000000000000000^509"ProcessInfoPlistFile ../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Resources/Info.plist Resources/Info.plist    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    builtin-infoPlistUtility Resources/Info.plist -expandbuildsettings -format binary -platform macosx -o "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/A/Resources/Info.plist"
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s327669412.099145
+e327669412.129516
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch.pth
+xAutoHyperlinks.framework_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile AutoHyperlinks.framework_Prefix.pch778219a4d687b341^59f949a4d687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/AutoHyperlinks.framework_Prefix.pch0000000000000000^2852"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgkurcomnmrlbphcvoitdylvmmfb/AutoHyperlinks.framework_Prefix.pch.pth
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgovxgmdtpkngcecautrysloocxy/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s327669413.906110
+e327669415.768775
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgovxgmdtpkngcecautrysloocxy/AutoHyperlinks.framework_Prefix.pch.pth
+xAutoHyperlinks.framework_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile AutoHyperlinks.framework_Prefix.pchb917e8a5d687b341^a5f3c5a7d687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/AutoHyperlinks.framework_Prefix.pch0000000000000000^3040"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgovxgmdtpkngcecautrysloocxy/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bgovxgmdtpkngcecautrysloocxy/AutoHyperlinks.framework_Prefix.pch.pth
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s327669412.129664
+e327669412.148622
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch.pth
+xAutoHyperlinks.framework_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile AutoHyperlinks.framework_Prefix.pch615121a4d687b341^711e4aa4d687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/AutoHyperlinks.framework_Prefix.pch0000000000000000^2846"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bmfaoqsivczkcxfbnrgqgkiclhbe/AutoHyperlinks.framework_Prefix.pch.pth
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s327669415.202294
+e327669416.664787
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch.pth
+xAutoHyperlinks.framework_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile AutoHyperlinks.framework_Prefix.pch2dea33a7d687b341^2d41aaa8d687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/AutoHyperlinks.framework_Prefix.pch0000000000000000^3034"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection)) -DIBAction=void)__attribute__((ibaction) -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-bvkliwonidnrtpatxrrehrysdhzf/AutoHyperlinks.framework_Prefix.pch.pth
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669412.099808
+e327669413.905946
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch.pth
+xAutoHyperlinks.framework_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile AutoHyperlinks.framework_Prefix.pchc1a719a4d687b341^6478e8a5d687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/AutoHyperlinks.framework_Prefix.pch0000000000000000^2894"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/x86_64" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-evhgdoxeyyghgtdhjfpzzfltgdnw/AutoHyperlinks.framework_Prefix.pch.pth
+
+CProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s327669412.871842
+e327669414.610881
+r1
+xProcessPCH
+x/var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch.pth
+xAutoHyperlinks.framework_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile AutoHyperlinks.framework_Prefix.pch774edfa4d687b341^9277aea6d687b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks%20Framework/AutoHyperlinks.framework_Prefix.pch0000000000000000^2888"ProcessPCH /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch.pth AutoHyperlinks.framework_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshadow -Wnewline-eof -Wundeclared-selector -DDEBUG_BUILD -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-generated-files.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-own-target-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-all-target-headers.hmap" -iquote "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/AutoHyperlinks-project-headers.hmap" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/include" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources/i386" "-I/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/AutoHyperlinks.framework.build/Release-Debug/AutoHyperlinks.framework.build/DerivedSources" -Wall "-F/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug" -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/AutoHyperlinks.framework_Prefix.pch" -o /var/folders/A8/A82-EyXBHHmI-DCRQ+J3KU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoHyperlinks.framework_Prefix-fsfojjxojjnepacwlsaujqhvegwq/AutoHyperlinks.framework_Prefix.pch.pth
+
+CSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks" Versions/Current/AutoHyperlinks
+s327669411.377782
+e327669411.387686
+r1
+xSymLink
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks
+xVersions/Current/AutoHyperlinks
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"Process /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks8dcf60a3d687b341^b6f5a3a3d687b341^---0#0#0#--415"SymLink ../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks Versions/Current/AutoHyperlinks    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /bin/ln -sf Versions/Current/AutoHyperlinks "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/AutoHyperlinks"
+
+CSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Headers" Versions/Current/Headers
+s327669411.379739
+e327669411.387762
+r1
+xSymLink
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Headers
+xVersions/Current/Headers
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Process /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Headers804661a3d687b341^0ef9a3a3d687b341^---0#0#0#--387"SymLink ../../build/Release-Debug/AutoHyperlinks.framework/Headers Versions/Current/Headers    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /bin/ln -sf Versions/Current/Headers "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Headers"
+
+CSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Resources" Versions/Current/Resources
+s327669411.366406
+e327669411.379601
+r1
+xSymLink
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Resources
+xVersions/Current/Resources
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Process /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Resources12db5da3d687b341^30f1a3a3d687b341^---0#0#0#--395"SymLink ../../build/Release-Debug/AutoHyperlinks.framework/Resources Versions/Current/Resources    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /bin/ln -sf Versions/Current/Resources "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Resources"
+
+CSymLink "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current" A
+s327669411.366049
+e327669411.375219
+r1
+xSymLink
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current
+xA
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Process /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current61c55da3d687b341^d1eba3a3d687b341^---0#0#0#--359"SymLink ../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current A    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /bin/ln -sf A "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework/Versions/Current"
+
+CTouch "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework"
+s327669419.310505
+e327669419.317623
+r1
+xTouch
+x/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Touch /Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework5c8e4fabd687b341^125051abd687b341^---0#0#0#--325"Touch ../../build/Release-Debug/AutoHyperlinks.framework    cd "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework"    /usr/bin/touch -c "/Users/Dave/Projects/XBox-Live-Adium-Plugin/adium/adium/Frameworks/AutoHyperlinks Framework/../../build/Release-Debug/AutoHyperlinks.framework"
+

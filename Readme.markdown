@@ -1,0 +1,1 @@
+An Adium plugin for Xbox Live.

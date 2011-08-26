@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/612/trunk
+END
+skype_messaging_carbon2.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/544/trunk/skype_messaging_carbon2.c
+END
+skype_messaging_network.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/571/trunk/skype_messaging_network.c
+END
+TODO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/456/trunk/TODO.txt
+END
+PurpleSkypeAccountViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/601/trunk/PurpleSkypeAccountViewController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/601/trunk/Info.plist
+END
+skype_messaging_dbus.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/611/trunk/skype_messaging_dbus.c
+END
+PurpleSkypeAccount.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/601/trunk/PurpleSkypeAccount.h
+END
+COPYING.txt
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/511/trunk/COPYING.txt
+END
+PurpleSkypeService.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/601/trunk/PurpleSkypeService.h
+END
+PurpleSkypeAccountViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/601/trunk/PurpleSkypeAccountViewController.m
+END
+PurpleSkypeAccount.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/601/trunk/PurpleSkypeAccount.m
+END
+skype_messaging_win32.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/587/trunk/skype_messaging_win32.c
+END
+skype_messaging_carbon.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/571/trunk/skype_messaging_carbon.c
+END
+PurpleSkypeService.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/601/trunk/PurpleSkypeService.m
+END
+SkypeJoinChatViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/601/trunk/SkypeJoinChatViewController.h
+END
+SkypePlugin_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/601/trunk/SkypePlugin_Prefix.pch
+END
+skype_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/607/trunk/skype_events.c
+END
+SkypePlugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/601/trunk/SkypePlugin.h
+END
+skype4pidgin.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/610/trunk/skype4pidgin.nsi
+END
+theme
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/574/trunk/theme
+END
+skype_messaging_x11.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/608/trunk/skype_messaging_x11.c
+END
+libskype.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/612/trunk/libskype.c
+END
+CHANGELOG.txt
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/570/trunk/CHANGELOG.txt
+END
+SkypeJoinChatViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/601/trunk/SkypeJoinChatViewController.m
+END
+SkypePlugin.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/601/trunk/SkypePlugin.m
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/569/trunk/debug.c
+END
+skype_messaging.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/605/trunk/skype_messaging.c
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/516/trunk/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/594/trunk/Makefile
+END

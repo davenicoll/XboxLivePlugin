@@ -9,8 +9,16 @@
 /* Begin PBXBuildFile section */
 		5531D2AD1388028E00FBBA4D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531D2AC1388028E00FBBA4D /* Cocoa.framework */; };
 		5531D2B71388028E00FBBA4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5531D2B51388028E00FBBA4D /* InfoPlist.strings */; };
-		5531D2BF138802E300FBBA4D /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5531D2BE138802E300FBBA4D /* Adium.framework */; };
 		5531D2C51388034E00FBBA4D /* XboxLivePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5531D2C41388034E00FBBA4D /* XboxLivePlugin.m */; };
+		553804FD1388246400A3F208 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 553804FC1388246400A3F208 /* AccountViewController.m */; };
+		55382DFB13DC6CC000CC9F1A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55382DFA13DC6CC000CC9F1A /* WebKit.framework */; };
+		5539E13013B92920004ACA80 /* xbox-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539E12E13B92920004ACA80 /* xbox-small.png */; };
+		5539E13113B92920004ACA80 /* xbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 5539E12F13B92920004ACA80 /* xbox.png */; };
+		554AF7B713B9011B00DA4371 /* XboxLiveAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 554AF7B613B9011B00DA4371 /* XboxLiveAccount.m */; };
+		554AF7ED13B9114C00DA4371 /* AdiumLibpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554AF7EC13B9114C00DA4371 /* AdiumLibpurple.framework */; };
+		554AF8BE13B91F3200DA4371 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554AF8BC13B91F3100DA4371 /* Adium.framework */; };
+		554AF8BF13B91F3200DA4371 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554AF8BD13B91F3100DA4371 /* AIUtilities.framework */; };
+		555E0614138D086800CA7201 /* XboxLiveService.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E0613138D086800CA7201 /* XboxLiveService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +30,20 @@
 		5531D2B41388028E00FBBA4D /* XboxLivePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XboxLivePlugin-Info.plist"; sourceTree = "<group>"; };
 		5531D2B61388028E00FBBA4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5531D2B81388028E00FBBA4D /* XboxLivePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XboxLivePlugin-Prefix.pch"; sourceTree = "<group>"; };
-		5531D2BE138802E300FBBA4D /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
 		5531D2C31388034E00FBBA4D /* XboxLivePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxLivePlugin.h; sourceTree = "<group>"; };
 		5531D2C41388034E00FBBA4D /* XboxLivePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XboxLivePlugin.m; sourceTree = "<group>"; };
+		553804FB1388246400A3F208 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		553804FC1388246400A3F208 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		55382DFA13DC6CC000CC9F1A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5539E12E13B92920004ACA80 /* xbox-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xbox-small.png"; sourceTree = "<group>"; };
+		5539E12F13B92920004ACA80 /* xbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbox.png; sourceTree = "<group>"; };
+		554AF7B513B9011B00DA4371 /* XboxLiveAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxLiveAccount.h; sourceTree = "<group>"; };
+		554AF7B613B9011B00DA4371 /* XboxLiveAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XboxLiveAccount.m; sourceTree = "<group>"; };
+		554AF7EC13B9114C00DA4371 /* AdiumLibpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdiumLibpurple.framework; path = "../../Library/Developer/Xcode/DerivedData/Adium-dhpbabrmbyfdwrdeagaswqjqcebu/Build/Products/Debug/AdiumLibpurple.framework"; sourceTree = "<group>"; };
+		554AF8BC13B91F3100DA4371 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = "../XboxLivePlugin Research/adium Release/Release/Adium.framework"; sourceTree = "<group>"; };
+		554AF8BD13B91F3100DA4371 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = "../XboxLivePlugin Research/adium Release/Release/AIUtilities.framework"; sourceTree = "<group>"; };
+		555E0612138D086800CA7201 /* XboxLiveService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XboxLiveService.h; sourceTree = "<group>"; };
+		555E0613138D086800CA7201 /* XboxLiveService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XboxLiveService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +51,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55382DFB13DC6CC000CC9F1A /* WebKit.framework in Frameworks */,
 				5531D2AD1388028E00FBBA4D /* Cocoa.framework in Frameworks */,
-				5531D2BF138802E300FBBA4D /* Adium.framework in Frameworks */,
+				554AF7ED13B9114C00DA4371 /* AdiumLibpurple.framework in Frameworks */,
+				554AF8BE13B91F3200DA4371 /* Adium.framework in Frameworks */,
+				554AF8BF13B91F3200DA4371 /* AIUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,8 +65,16 @@
 		5531D29E1388028D00FBBA4D = {
 			isa = PBXGroup;
 			children = (
+				5539E12E13B92920004ACA80 /* xbox-small.png */,
+				5539E12F13B92920004ACA80 /* xbox.png */,
+				553804FB1388246400A3F208 /* AccountViewController.h */,
+				553804FC1388246400A3F208 /* AccountViewController.m */,
+				554AF7B513B9011B00DA4371 /* XboxLiveAccount.h */,
+				554AF7B613B9011B00DA4371 /* XboxLiveAccount.m */,
 				5531D2C31388034E00FBBA4D /* XboxLivePlugin.h */,
 				5531D2C41388034E00FBBA4D /* XboxLivePlugin.m */,
+				555E0612138D086800CA7201 /* XboxLiveService.h */,
+				555E0613138D086800CA7201 /* XboxLiveService.m */,
 				5531D2B21388028E00FBBA4D /* XboxLivePlugin */,
 				5531D2AB1388028E00FBBA4D /* Frameworks */,
 				5531D2AA1388028E00FBBA4D /* Products */,
@@ -63,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5531D2AC1388028E00FBBA4D /* Cocoa.framework */,
+				55382DFA13DC6CC000CC9F1A /* WebKit.framework */,
 				5531D2AE1388028E00FBBA4D /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -71,7 +102,9 @@
 		5531D2AE1388028E00FBBA4D /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5531D2BE138802E300FBBA4D /* Adium.framework */,
+				554AF8BC13B91F3100DA4371 /* Adium.framework */,
+				554AF8BD13B91F3100DA4371 /* AIUtilities.framework */,
+				554AF7EC13B9114C00DA4371 /* AdiumLibpurple.framework */,
 				5531D2AF1388028E00FBBA4D /* AppKit.framework */,
 				5531D2B01388028E00FBBA4D /* CoreData.framework */,
 				5531D2B11388028E00FBBA4D /* Foundation.framework */,
@@ -128,6 +161,35 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ca,
+				cs,
+				da,
+				de,
+				el_GR,
+				en_AU,
+				en_CA,
+				en_GB,
+				es,
+				fi,
+				fr,
+				fr_CA,
+				hu,
+				is,
+				it,
+				ja,
+				nb,
+				nl,
+				pl,
+				pt,
+				pt_PT,
+				ru,
+				sk_SK,
+				sl,
+				sv,
+				tr,
+				uk_UA,
+				zh_CN,
+				zh_TW,
 			);
 			mainGroup = 5531D29E1388028D00FBBA4D;
 			productRefGroup = 5531D2AA1388028E00FBBA4D /* Products */;
@@ -144,6 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5539E13013B92920004ACA80 /* xbox-small.png in Resources */,
+				5539E13113B92920004ACA80 /* xbox.png in Resources */,
 				5531D2B71388028E00FBBA4D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5531D2C51388034E00FBBA4D /* XboxLivePlugin.m in Sources */,
+				553804FD1388246400A3F208 /* AccountViewController.m in Sources */,
+				555E0614138D086800CA7201 /* XboxLiveService.m in Sources */,
+				554AF7B713B9011B00DA4371 /* XboxLiveAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +244,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks\"/**",
+					"\"~/Projects/XboxLivePlugin Research/adium Release\"/**",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -185,9 +256,12 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/Dave/Projects/XboxLivePlugin/Frameworks/libglib.framework/Versions/2.0.0/Headers/**";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/include/;
 			};
 			name = Debug;
 		};
@@ -195,13 +269,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks\"/**",
+					"\"~/Projects/XboxLivePlugin Research/adium Release\"/**",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/Dave/Projects/XboxLivePlugin/Frameworks/libglib.framework/Versions/2.0.0/Headers/**";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/include/;
 			};
 			name = Release;
 		};
@@ -209,17 +290,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/Adium-dhpbabrmbyfdwrdeagaswqjqcebu/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../XboxLivePlugin Research/adium Release/Release\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XboxLivePlugin/XboxLivePlugin-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "XboxLivePlugin/XboxLivePlugin-Info.plist";
 				INSTALL_PATH = "“$(HOME)/Library/Application Support/Adium 2.0/PlugIns/”";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
@@ -229,15 +316,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/Adium-dhpbabrmbyfdwrdeagaswqjqcebu/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../XboxLivePlugin Research/adium Release/Release\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XboxLivePlugin/XboxLivePlugin-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "XboxLivePlugin/XboxLivePlugin-Info.plist";
 				INSTALL_PATH = "“$(HOME)/Library/Application Support/Adium 2.0/PlugIns/”";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +356,7 @@
 				5531D2BD1388028E00FBBA4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
